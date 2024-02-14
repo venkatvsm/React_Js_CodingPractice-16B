@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.bg_Container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  font-family: 'Roboto';
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.card_Container {
+  width: 80%;
+  height: 80%;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.image {
+  display: none;
+}
+@media screen and (min-width: 767px) {
+  .imageContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .image {
+    display: inline;
+    width: 50%;
+    padding-top: 40px;
+  }
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+.titleBlock {
+  height: 40px;
+  width: 300px;
+  border-style: solid;
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  padding-left: 10px;
+}
+.labelEl {
+  font-weight: 500;
+  font-size: 21px;
+  color: #b5b7c4;
+}
+.submitBtn {
+  background-color: #8b5cf6;
+  height: 40px;
+  width: 64px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.horizontalLine {
+  background-color: #171f46;
+}
+.StarredbuttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-right: 10px;
+}
+.buttonStarred {
+  margin-top: 6%;
+  width: 120px;
+  height: 35px;
+  border-radius: 21px;
+  background-color: transparent;
+  border-color: #9897f0;
+  color: #9897f0;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.ListItemsContainer {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}

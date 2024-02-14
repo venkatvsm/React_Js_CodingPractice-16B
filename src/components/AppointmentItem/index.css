@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.itemsContainer {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #b5b7c4;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  width: 250px;
+  height: 100px;
+  margin: 10px;
+}
+.heading {
+  font-size: 26px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.image {
+  margin-top: 5px;
+}
+.btnEl {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.datepara{
+  font-size: 14px;
+}
