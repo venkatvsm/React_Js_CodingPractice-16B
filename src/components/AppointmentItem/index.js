@@ -10,7 +10,7 @@ const AppointmentItem = props => {
   return (
     <li className="itemsContainer">
       <div>
-        <h1 className="heading">{title}</h1>
+        <p className="heading">{title}</p>
         <p className="datepara">{date}</p>
       </div>
       <button
