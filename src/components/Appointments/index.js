@@ -6,7 +6,6 @@ import './index.css'
 import AppointmentItem from '../AppointmentItem'
 
 const initialListEl = []
-
 class Appointments extends Component {
   state = {initialList: initialListEl, title: '', date: ''}
 
