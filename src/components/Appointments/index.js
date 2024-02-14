@@ -32,11 +32,7 @@ class Appointments extends Component {
 
   filterForStarred = () => {
     const {initialList} = this.state
-    const filteredList = initialList.filter(eachItem => {
-      if (eachItem.isStarred) {
-        return eachItem
-      }
-    })
+    const filteredList = initialList.filter(eachItem => eachItem.isStarred)
     this.setState({initialList: filteredList})
   }
 
