@@ -7,7 +7,6 @@ const AppointmentItem = props => {
   const onChangeEl = () => {
     starredElementChanged(id)
   }
-  
   return (
     <li className="itemsContainer">
       <div>
